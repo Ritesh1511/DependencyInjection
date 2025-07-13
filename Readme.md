@@ -109,10 +109,12 @@ app.Run();
 ```
 
 In case of Singleton and Scoped \-   
-![][image1]
+<img width="596" height="236" alt="image" src="https://github.com/user-attachments/assets/c20e41e9-bbae-41ab-9478-0bf3eb3cac85" />
+
 
 Transient \-  
-![][image2]
+<img width="592" height="228" alt="image" src="https://github.com/user-attachments/assets/24b337ea-1348-439b-9c38-4dab915bb434" />
+
 
 DI container maintains the object.
 
