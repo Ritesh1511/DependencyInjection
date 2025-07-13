@@ -4,6 +4,7 @@ This promotes **loose coupling**, **easier testing**, and **better code maintain
 
 Custom class-
 
+```
 namespace Ritesh\_Kaushik\_adding\_middleware.Models;
 
 public class CustomClass  
@@ -15,8 +16,10 @@ public class CustomClass
        publicValue \= 2000;  
    }  
 }
+```
 
 Controller \-   
+```
 using System.ComponentModel;  
 using System.Diagnostics;  
 using Microsoft.AspNetCore.Mvc;  
@@ -65,8 +68,9 @@ public class HomeController : Controller
        return View(new ErrorViewModel { RequestId \= Activity.Current?.Id ?? HttpContext.TraceIdentifier });  
    }  
 }
-
+```
 Program.cs \-  
+```
 using Ritesh\_Kaushik\_adding\_middleware;  
 using Ritesh\_Kaushik\_adding\_middleware.Models;
 
@@ -102,6 +106,7 @@ app.MapControllerRoute(
    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+```
 
 In case of Singleton and Scoped \-   
 ![][image1]
